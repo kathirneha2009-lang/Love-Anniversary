@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Anniversary ❤️</title>
+
+<style>
+body{
+margin:0;
+padding:0;
+font-family:Arial, sans-serif;
+background:linear-gradient(135deg,#ff758c,#ff7eb3);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+overflow:hidden;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+max-width:350px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+animation:fadeIn 2s ease;
+}
+
+h1{
+color:#ff4d6d;
+margin-bottom:10px;
+}
+
+h2{
+color:#333;
+}
+
+p{
+color:#555;
+font-size:16px;
+line-height:1.6;
+}
+
+button{
+background:#ff4d6d;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+margin-top:10px;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+#message{
+display:none;
+margin-top:20px;
+font-size:18px;
+color:#444;
+line-height:1.7;
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>❤️ Happy Anniversary ❤️</h1>
+
+<h2>My Dear Love</h2>
+
+<p>
+Seven beautiful years, countless memories, endless love, and a lifetime to go. ❤️
+</p>
+
+<button onclick="showMessage()">
+Open Secret Message 💌
+</button>
+
+<div id="message">
+
+❤️🥹
+
+Thank you for being part of my life.
+
+These seven years have given me countless beautiful memories, smiles, laughter, and happiness.
+
+No matter how many years pass,
+you will always be my favorite person.
+
+Happy Anniversary My Love ❤️
+
+Forever & Always ✨
+
+</div>
+
+</div>
+
+<script>
+function showMessage(){
+document.getElementById("message").style.display="block";
+}
+</script>
+
+</body>
+</html>
